@@ -1,2 +1,2 @@
-# offensive ponyo's Handbook
-po3nyo's offensive HandBook:)
+# Offensive Ponyo's Handbook
+Po3nyo's Offensive HandBook:)

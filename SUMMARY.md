@@ -1,15 +1,31 @@
 # Table of contents
 
-* [👋 Welcome!](README.md)
-* [🦯 Red Team](red-team.md)
-* [Red Team Infrastructure](red-team-infrastructure.md)
-* [Initial Access](initial-access.md)
-* [Code Excution](code-excution.md)
-* [Code & Process Injection](code-and-process-injection.md)
-* [Defense Evasion](defense-evasion.md)
-* [Enumeration and Discovery](enumeration-and-discovery.md)
-* [Privilege Escalation](privilege-escalation.md)
-* [Credential Access & Dumping](credential-access-and-dumping.md)
-* [Lateral Movement](lateral-movement.md)
-* [Persistence](persistence.md)
-* [Exfiltration](exfiltration.md)
+## 🖐 Welcome!
+
+* [Welcome!](README.md)
+
+## 📒 Web
+
+* [Page 1](web/page-1.md)
+
+## 📕 Mobile
+
+* [Page 2](mobile/page-2.md)
+
+## 📗 Network
+
+* [Page 3](network/page-3.md)
+
+## 🏹 Red Team
+
+* [Red Team Infrastructure](red-team/red-team-infrastructure.md)
+* [Initial Access](red-team/initial-access.md)
+* [Code Excution](red-team/code-excution.md)
+* [Code & Process Injection](red-team/code-and-process-injection.md)
+* [Defense Evasion](red-team/defense-evasion.md)
+* [Enumeration and Discovery](red-team/enumeration-and-discovery.md)
+* [Privilege Escalation](red-team/privilege-escalation.md)
+* [Credential Access & Dumping](red-team/credential-access-and-dumping.md)
+* [Lateral Movement](red-team/lateral-movement.md)
+* [Persistence](red-team/persistence.md)
+* [Exfiltration](red-team/exfiltration.md)

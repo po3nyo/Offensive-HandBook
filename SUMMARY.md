@@ -1,0 +1,15 @@
+# Table of contents
+
+* [👋 Welcome!](README.md)
+* [🦯 Red Team](red-team.md)
+* [Red Team Infrastructure](red-team-infrastructure.md)
+* [Initial Access](initial-access.md)
+* [Code Excution](code-excution.md)
+* [Code & Process Injection](code-and-process-injection.md)
+* [Defense Evasion](defense-evasion.md)
+* [Enumeration and Discovery](enumeration-and-discovery.md)
+* [Privilege Escalation](privilege-escalation.md)
+* [Credential Access & Dumping](credential-access-and-dumping.md)
+* [Lateral Movement](lateral-movement.md)
+* [Persistence](persistence.md)
+* [Exfiltration](exfiltration.md)

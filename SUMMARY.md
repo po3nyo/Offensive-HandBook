@@ -29,3 +29,11 @@
 * [Lateral Movement](red-team/lateral-movement.md)
 * [Persistence](red-team/persistence.md)
 * [Exfiltration](red-team/exfiltration.md)
+
+## 📙 Linux
+
+* [Page 4](linux/page-4.md)
+
+## 📚 Windows
+
+* [Page 5](windows/page-5.md)

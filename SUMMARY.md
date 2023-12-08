@@ -4,6 +4,10 @@
 
 * [Welcome!](README.md)
 
+## 🕹 Toolss & Cheat sheet
+
+* [Page 6](toolss-and-cheat-sheet/page-6.md)
+
 ## 📒 Web
 
 * [Page 1](web/page-1.md)

@@ -1,5 +1,9 @@
 # Welcome!
 
+<figure><img src=".gitbook/assets/Po3nyo’s.png" alt=""><figcaption></figcaption></figure>
+
+
+
 CTF, 실제 앱, 독서 연구 및 뉴스를 통해 제가 배운 모든 해킹 트릭/기술/기법을 찾을 수 있는 위키에 오신 것을 환영합니다.
 
 오펜시브 시큐리티 및 전반적인 정보보안과 관련된 TTP, 정보, 그리고 대응 방안을 공유하기 위해 만들어졌으며 방대한 국외자료들을 한글화 하여 보기좋게 정리하는게 목표입니다.

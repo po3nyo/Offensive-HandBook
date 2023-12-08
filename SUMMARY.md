@@ -4,9 +4,9 @@
 
 * [Welcome!](README.md)
 
-## 🕹 Toolss & Cheat sheet
+## 🕹 Tools & Cheat sheet
 
-* [Page 6](toolss-and-cheat-sheet/page-6.md)
+* [Page 6](tools-and-cheat-sheet/page-6.md)
 
 ## 📒 Web
 

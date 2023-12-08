@@ -24,6 +24,22 @@
 
 * [Page 3](network/page-3.md)
 
+## 🔧 reverse engineering
+
+* [Page 7](reverse-engineering/page-7.md)
+
+## 🛡 Forensic
+
+* [Page 8](forensic/page-8.md)
+
+## 📙 Linux
+
+* [Page 4](linux/page-4.md)
+
+## 📚 Windows
+
+* [Page 5](windows/page-5.md)
+
 ## 🏹 Red Team
 
 * [Red Team Infrastructure](red-team/red-team-infrastructure.md)
@@ -37,11 +53,3 @@
 * [Lateral Movement](red-team/lateral-movement.md)
 * [Persistence](red-team/persistence.md)
 * [Exfiltration](red-team/exfiltration.md)
-
-## 📙 Linux
-
-* [Page 4](linux/page-4.md)
-
-## 📚 Windows
-
-* [Page 5](windows/page-5.md)

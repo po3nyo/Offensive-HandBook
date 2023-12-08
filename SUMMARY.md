@@ -4,9 +4,9 @@
 
 * [Welcome!](README.md)
 
-## 📌 Home LAB 구축
+## 📌 Home LAB 구축하기
 
-* [Page 7](home-lab/page-7.md)
+* [Offensive VM](home-lab/offensive-vm.md)
 
 ## 🕹 Tools & Cheat sheet
 

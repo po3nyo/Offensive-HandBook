@@ -40,6 +40,10 @@
 
 * [Page 5](windows/page-5.md)
 
+## 🔖 CTF
+
+* [Wirete-ups](ctf/wirete-ups.md)
+
 ## 🏹 Red Team
 
 * [Red Team Infrastructure](red-team/red-team-infrastructure.md)
@@ -53,3 +57,11 @@
 * [Lateral Movement](red-team/lateral-movement.md)
 * [Persistence](red-team/persistence.md)
 * [Exfiltration](red-team/exfiltration.md)
+
+## 👽 C2 Framework
+
+* [Page 9](c2-framework/page-9.md)
+
+## 👀 Misc
+
+* [Page 10](misc/page-10.md)

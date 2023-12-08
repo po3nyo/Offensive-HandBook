@@ -4,6 +4,10 @@
 
 * [Welcome!](README.md)
 
+## 📌 Home LAB 구축
+
+* [Page 7](home-lab/page-7.md)
+
 ## 🕹 Tools & Cheat sheet
 
 * [Page 6](tools-and-cheat-sheet/page-6.md)

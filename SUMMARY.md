@@ -6,7 +6,7 @@
 
 ## 📌 Home LAB 구축하기
 
-* [Offensive VM](home-lab/offensive-vm.md)
+* [Offensive OS](home-lab/offensive-os.md)
 
 ## 🕹 Tools & Cheat sheet
 

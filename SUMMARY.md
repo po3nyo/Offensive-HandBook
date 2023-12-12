@@ -60,7 +60,8 @@
 
 ## 👽 C2 Framework
 
-* [Page 9](c2-framework/page-9.md)
+* [C2 Framework 란?](c2-framework/c2-framework.md)
+* [Page](c2-framework/page.md)
 
 ## 👀 Misc
 

@@ -6,7 +6,7 @@
 
 ## 📌 Home LAB 구축하기
 
-* [Offensive OS](home-lab/offensive-os.md)
+* [Pentesting OS](home-lab/pentesting-os.md)
 
 ## 🕹 Tools & Cheat sheet
 

@@ -6,28 +6,28 @@
 
 ## 📒 Web
 
-* [Page 1](web/page-1.md)
+* [Background](web/background.md)
 
 ## 📕 Mobile
 
-* [Page 2](mobile/page-2.md)
+* [Background](mobile/background.md)
 
 ## 📗 Network
 
-* [Page 3](network/page-3.md)
+* [Background](network/background.md)
 
 ## 🔧 reverse engineering
 
-* [Page 7](reverse-engineering/page-7.md)
+* [Background](reverse-engineering/background.md)
 
 ## 🛡️ Forensic
 
-* [Page 8](forensic/page-8.md)
+* [Background](forensic/background.md)
 
 ## 📙 Linux
 
-* [Page 4](linux/page-4.md)
+* [Background](linux/background.md)
 
 ## 📚 Windows
 
-* [Page 5](windows/page-5.md)
+* [Background](windows/background.md)

@@ -31,3 +31,7 @@
 ## 📚 Windows
 
 * [Background](windows/background.md)
+
+## ETC
+
+* [Tools](etc/tools.md)

@@ -2,7 +2,7 @@
 
 ## 🖐️ Welcome!
 
-* [Welcome!](README.md)
+* [Introduction](README.md)
 
 ## 📒 Web
 

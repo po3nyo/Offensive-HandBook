@@ -1,36 +1,46 @@
 # Table of contents
 
-## 🖐️ Welcome!
-
 * [Introduction](README.md)
 
-## 📒 Web
+## Pinned
 
-* [Background](web/background.md)
+* [Cheat Sheet](pinned/cheat-sheet.md)
 
-## 📕 Mobile
+## Offensive Security
 
-* [Background](mobile/background.md)
+* [Red Team Infrastructure](offensive-security/red-team-infrastructure.md)
+* [Blue Team Infrastructure](offensive-security/blue-team-infrastructure.md)
+* [Reconnaissance](offensive-security/reconnaissance.md)
+* [Initial Access](offensive-security/initial-access.md)
 
-## 📗 Network
+***
 
-* [Background](network/background.md)
+* [Execution](execution.md)
+* [Persistence](persistence.md)
+* [Privilege Escalation](privilege-escalation.md)
+* [Defense Evasion](defense-evasion.md)
+* [Credential Access](credential-access.md)
+* [Discovery](discovery.md)
+* [Lateral Movement](lateral-movement.md)
+* [Collection](collection.md)
+* [Command and Control](command-and-control.md)
+* [Exfiltration](exfiltration.md)
 
-## 🔧 reverse engineering
+## Web Pentesting
 
-* [Background](reverse-engineering/background.md)
+* [web](web-pentesting/web.md)
 
-## 🛡️ Forensic
+## Mobile Pentesting
 
-* [Background](forensic/background.md)
+* [mobile](mobile-pentesting/mobile.md)
 
-## 📙 Linux
+## reverse engineering
 
-* [Background](linux/background.md)
+* [Reverse Engineering](reverse-engineering/reverse-engineering.md)
 
-## 📚 Windows
+## forensic
 
-* [Background](windows/background.md)
+* [forensic](forensic/forensic.md)
 
 ## ETC
 

@@ -74,8 +74,16 @@
 
 ## forensic
 
-* [forensic](forensic/forensic.md)
+* [Windows](forensic/windows.md)
+* [Linux](forensic/linux.md)
 
 ## ETC
 
-* [Tools](etc/tools.md)
+* [Tools](etc/tools/README.md)
+  * [Burpsuite](etc/tools/burpsuite.md)
+  * [Nmap](etc/tools/nmap.md)
+  * [Feroxbuster](etc/tools/feroxbuster.md)
+  * [John The ripper](etc/tools/john-the-ripper.md)
+  * [Hashcat](etc/tools/hashcat.md)
+  * [CobaltStrike](etc/tools/cobaltstrike.md)
+* [CVE Research](etc/cve-research.md)

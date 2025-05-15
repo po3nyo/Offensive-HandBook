@@ -1,2 +1,6 @@
+---
+icon: escalator
+---
+
 # Privilege Escalation
 

@@ -86,4 +86,7 @@
   * [John The ripper](etc/tools/john-the-ripper.md)
   * [Hashcat](etc/tools/hashcat.md)
   * [CobaltStrike](etc/tools/cobaltstrike.md)
+  * [Rustscan](etc/tools/rustscan.md)
+  * [Blood-hound](etc/tools/blood-hound.md)
+  * [impacket](etc/tools/impacket.md)
 * [CVE Research](etc/cve-research.md)

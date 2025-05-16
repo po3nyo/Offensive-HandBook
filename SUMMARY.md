@@ -8,7 +8,13 @@
 
 ## 📖 background knowledge
 
-* [Active Directory](background-knowledge/active-directory.md)
+* [Active Directory & Windows](background-knowledge/active-directory-and-windows.md)
+
+***
+
+* [Linux](linux.md)
+* [Web](web.md)
+* [Network](network.md)
 
 ## 🟥 Offensive Security
 

@@ -1,2 +1,6 @@
-# Page 1
+---
+icon: axe-battle
+---
+
+# Red Team Infrastructure
 

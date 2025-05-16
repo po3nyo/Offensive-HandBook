@@ -2,11 +2,15 @@
 
 * [Introduction](README.md)
 
-## Pinned
+## 📌 Pinned
 
 * [Cheat Sheet](pinned/cheat-sheet.md)
 
-## Offensive Security
+## 📖 background knowledge
+
+* [Active Directory](background-knowledge/active-directory.md)
+
+## 🟥 Offensive Security
 
 * [Red Team Infrastructure](offensive-security/red-team-infrastructure.md)
 * [Blue Team Infrastructure](offensive-security/blue-team-infrastructure.md)
@@ -26,7 +30,7 @@
 * [Command and Control](command-and-control.md)
 * [Exfiltration](exfiltration.md)
 
-## Web Pentesting
+## 🟦 Web Pentesting
 
 * [Server-Side](web-pentesting/server-side/README.md)
   * [SQL injection](web-pentesting/server-side/sql-injection.md)
@@ -64,7 +68,7 @@
   * [Web LLM attacks](client-side/web-llm-attacks.md)
   * [Prototype pollution](client-side/prototype-pollution.md)
 
-## Mobile Pentesting
+## 🟩 Mobile Pentesting
 
 * [Android](mobile-pentesting/android.md)
 
@@ -72,16 +76,16 @@
 
 * [IOS](ios.md)
 
-## reverse engineering
+## 🟨 reverse engineering
 
 * [Reverse Engineering](reverse-engineering/reverse-engineering.md)
 
-## forensic
+## 🟧 forensic
 
 * [Windows](forensic/windows.md)
 * [Linux](forensic/linux.md)
 
-## ETC
+## 🟫 ETC
 
 * [Tools](etc/tools/README.md)
   * [Reconnaissance / OSINT](etc/tools/reconnaissance-osint/README.md)

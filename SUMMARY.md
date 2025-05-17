@@ -12,9 +12,11 @@
 
 ***
 
-* [Linux](linux.md)
+* [Linux](linux/README.md)
+  * [Capability](linux/capability.md)
 * [Web](web.md)
 * [Network](network.md)
+* [CS](cs.md)
 
 ## 🟥 Offensive Security
 

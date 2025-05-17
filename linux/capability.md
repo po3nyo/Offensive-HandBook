@@ -111,3 +111,52 @@ root:$y$j9T$0jySFGwRLizG1CF2zeBsd1$B9D3ly/.g4kS.6S/POc7KcD6dRS3DtmulhAECzkLouD:2
 * `su` 명령으로 root 계정 로그인
 
 <figure><img src="../.gitbook/assets/2025-05-17 09 47 22 (1).png" alt=""><figcaption></figcaption></figure>
+
+## 5. Mitigation
+
+### 1. 불필요한 Capability 제거
+
+일반 사용자 접근 가능한 바이너리에 `cap_setuid`, `cap_sys_admin`, `cap_dac_override` 같은 **고위험 Capabilities**가 부여되어 있으면 누구든지 루트 쉘을 획득할 수 있습니다. 따라서 정기적으로 확인하여 관리해야합니다.
+
+* Capability 설정 확인
+
+```bash
+getcap -r / 2>/dev/null
+```
+
+* 출력 결과 위험 Capability가 설정된 바이너리 확인 및 제거
+
+```bash
+sudo setcap -r /path/to/file
+```
+
+
+
+### 2. 최소 권한 원칙(Least Privilege Principle) 적용
+
+Capabilities는 루트 권한을 대체할 수 있는 만큼, 반드시 **정확하게 필요한 작업만 수행하도록 최소화**해야 합니다.
+
+예시:
+
+* `ping` → `cap_net_raw`만 필요
+* `mount` → 절대로 일반 사용자에게 부여하면 안 됨 (`cap_sys_admin`은 root급 권한)
+
+
+
+### 3. 인터프리터 바이너리(cap\_sh, python, bash 등)에 Capabilities 금지
+
+Python, Bash, Perl 등의 인터프리터에 `cap_setuid`, `cap_dac_override` 등을 부여하면, 임의 코드 실행으로 루트 쉘을 매우 쉽게 얻을 수 있으므로 이러한 범용 도구에는 절대 Capability를 부여하면 안되며 부득이한 경우 `AppArmor`나 `SELinux` 같은 **Mandatory Access Control(MAC)** 시스템을 통한 추가적인 관리가 필요합니다.
+
+
+
+### 4. 정기적 점검 및 감시
+
+Capabilities 설정은 파일 속성(xattr)에 저장되므로, 일반 파일 검사로는 보이지 않습니다. 정기적으로 스크립트나 보안 점검 도구로 감시해야 합니다.
+
+스크립트 예시:
+
+```bash
+#!/bin/bash
+getcap -r / 2>/dev/null | grep -E 'cap_(setuid|sys_admin|dac_override|sys_ptrace|chown)' > /var/log/capabilities_audit.log
+```
+

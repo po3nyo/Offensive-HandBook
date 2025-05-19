@@ -144,6 +144,7 @@
     * [Havoc](etc/tools/tunneling-proxy-c2/havoc.md)
     * [Mythic](etc/tools/tunneling-proxy-c2/mythic.md)
     * [Sliver](etc/tools/tunneling-proxy-c2/sliver.md)
+    * [AdaptixC2](etc/tools/tunneling-proxy-c2/adaptixc2.md)
   * [Wireless / Nework Attack](etc/tools/wireless-nework-attack.md)
   * [Mobile](etc/tools/mobile.md)
   * [Reverse Enginnering](etc/tools/reverse-enginnering.md)

@@ -27,5 +27,86 @@ Adaptix는 모의 침투 테스터를 위해 만들어진 확장 가능한 사�
 
 
 
-## 3. Getting Starting
+## 3. Installation
+
+### 1. download sourcecode
+
+AdaptixС2의 소스 코드는 [github](https://github.com/Adaptix-Framework/AdaptixC2/tree/main)에서 확인할 수 있습니다. main 브랜치는 stable 버전이며 최신 변경 사항이 포함되어 있지 않습니다.
+
+```bash
+git clone https://github.com/Adaptix-Framework/AdaptixC2.git
+cd AdaptixC2
+```
+
+
+
+### 2. Pre install
+
+AdaptixC2 오픈소스 프로젝트로 소스코드를 다운받아 직접 빌드하여 사용해야 하기 때문에 실행하기 위해서는 Golang및 관련  패키지들이 설치되어 있어야 합니다.
+
+```bash
+#패키지 설치
+sudo apt install golang-1.24 mingw-w64 make
+#심볼릭 링크생성
+sudo ln -s /usr/lib/go-1.24/bin/go /usr/local/bin/go
+```
+
+{% hint style="success" %}
+AdaptixC2 폴더내에 `pre_install_linux.sh`  스크립트를 통해 간편하게 설치가 가능합니다.
+
+다만 해당 스크립트를 실행하기전  패키지 설치 명령어와 심볼릭링크 생성 명령어에서 golang-1.23 버전을 golang-1.24 버전으로 수정 후 진행하시는걸 권장드립니다.
+{% endhint %}
+
+
+
+### 3. Server build
+
+```bash
+# ~/AdaptixC2
+make server
+make extender
+```
+
+<figure><img src="../../../.gitbook/assets/2025-05-20 23 23 38.png" alt=""><figcaption><p> 서버 빌드</p></figcaption></figure>
+
+### 4. Client build
+
+```bash
+make client
+```
+
+<figure><img src="../../../.gitbook/assets/2025-05-20 23 30 07.png" alt=""><figcaption><p>클라이언트 빌드 </p></figcaption></figure>
+
+
+
+## 4. Start
+
+빌드가 정상적으로 성공했으면 서버와 클라이언트의 실행파일은 AdaptixC2 폴더내의 dist 폴더에 저장됩니다.
+
+실행을 위해서 먼저 dist 폴더로 이동해 줍니다.
+
+```bash
+cd dist
+```
+
+### Start Server
+
+AdaptixC2 서버를 실행하려면 SSL 인증서가 필요합니다.&#x20;
+
+```bash
+openssl req -x509 -nodes -newkey rsa:2048 -keyout server.rsa.key -out server.rsa.crt -days 3650
+```
+
+{% hint style="success" %}
+dist 폴더내의 ssl\_gen.sh 스크립트를 통해 빠르게 설치할 수 있습니다.
+{% endhint %}
+
+```bash
+#server 실
+./adaptixserver -profile profile.json
+```
+
+<figure><img src="../../../.gitbook/assets/2025-05-20 23 45 56.png" alt=""><figcaption><p>server 실행</p></figcaption></figure>
+
+
 

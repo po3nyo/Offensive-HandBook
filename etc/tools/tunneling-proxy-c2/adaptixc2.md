@@ -6,7 +6,7 @@
 
 <figure><img src="../../../.gitbook/assets/68747470733a2f2f616461707469782d6672616d65776f726b2e676974626f6f6b2e696f2f7e676974626f6f6b2f696d6167653f75726c3d6874747073253341253246253246323130343137383630322d66696c65732e676974626f6f6b2e696f25324625374525.webp" alt=""><figcaption><p>실행화면</p></figcaption></figure>
 
-Adaptix는 모의 침투 테스터를 위해 만들어진 확장 가능한 사후 익스플로잇 및 적대적 에뮬레이션 프레임워크입니다. Adaptix 서버는 운영자가 유연하게 사용할 수 있도록 Golang으로 작성되었습니다. GUI 클라이언트는 C++ QT로 작성되어 Linux, Windows, MacOS 운영 체제에서 사용할 수 있습니다.
+Adaptix는 모의 침투 테스터를 위해 만들어진 확장 가능한 C2 프레임워크입니다. Adaptix 서버는 운영자가 유연하게 사용할 수 있도록 Golang으로 작성되었습니다. GUI 클라이언트는 C++ QT로 작성되어 Linux, Windows, MacOS 운영 체제에서 사용할 수 있습니다.
 
 
 
@@ -81,9 +81,9 @@ make client
 
 ## 4. Start
 
-빌드가 정상적으로 성공했으면 서버와 클라이언트의 실행파일은 AdaptixC2 폴더내의 dist 폴더에 저장됩니다.
+빌드가 정상적으로 성공했으면 서버와 클라이언트의 실행파일은 AdaptixC2 폴더내의 `dist` 폴더에 저장됩니다.
 
-실행을 위해서 먼저 dist 폴더로 이동해 줍니다.
+실행을 위해서 먼저 `dist` 폴더로 이동해 줍니다.
 
 ```bash
 cd dist
@@ -102,11 +102,26 @@ dist 폴더내의 ssl\_gen.sh 스크립트를 통해 빠르게 설치할 수 있
 {% endhint %}
 
 ```bash
-#server 실
+#server 실행
 ./adaptixserver -profile profile.json
 ```
 
+{% hint style="success" %}
+&#x20;`profile.json`  파일에서 pw 및 각종 정보들을 확인 및  수정이 가능합니다.
+{% endhint %}
+
 <figure><img src="../../../.gitbook/assets/2025-05-20 23 45 56.png" alt=""><figcaption><p>server 실행</p></figcaption></figure>
 
+### Start Client
 
+```bash
+./AdaptixClient
+```
 
+AdaptixClient가 실행되면 사용자의 홈 디렉터리에 `.adaptix`라는 디렉터리가 생성됩니다. AdaptixClient 데이터베이스 파일은 .adaptix 디렉토리에 저장됩니다.&#x20;
+
+client를 실행하면 아래오 같은 창이 뜨는데 `User information` 과 `Server details` 부분에 정보를 작성하면 GUI 콘솔에 연결이 가능합니다.
+
+<figure><img src="../../../.gitbook/assets/2025-05-21 21 53 16.png" alt=""><figcaption><p>connet 정보 입력</p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/2025-05-21 21 58 45.png" alt=""><figcaption><p>client 연결 화면</p></figcaption></figure>

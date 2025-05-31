@@ -96,6 +96,7 @@
 ## 🟫 ETC
 
 * [Tools](etc/tools/README.md)
+  * [Red Teaming Toolkit](etc/tools/red-teaming-toolkit.md)
   * [Reconnaissance / OSINT](etc/tools/reconnaissance-osint/README.md)
     * [Nmap](etc/tools/reconnaissance-osint/nmap.md)
     * [Rustscan](etc/tools/reconnaissance-osint/rustscan.md)

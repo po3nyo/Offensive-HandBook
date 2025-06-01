@@ -5,7 +5,7 @@
 ## 📌 Pinned
 
 * [Cheat Sheet](pinned/cheat-sheet/README.md)
-  * [MSFVenom](pinned/cheat-sheet/msfvenom.md)
+  * [MSFVenom-Cheatsheet](pinned/cheat-sheet/msfvenom-cheatsheet.md)
   * [Hydra-Cheatsheet](pinned/cheat-sheet/hydra-cheatsheet.md)
   * [Hashcat-Cheatsheet](pinned/cheat-sheet/hashcat-cheatsheet.md)
 

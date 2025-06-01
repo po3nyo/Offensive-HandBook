@@ -1,14 +1,20 @@
 # Hashcat-Cheatsheet
 
-> https://hashcat.net/wiki/doku.php?id=hashcat
+{% hint style="info" %}
+Hashcat Cheatsheet for OSCP [https://hashcat.net/wiki/doku.php?id=hashcat](https://hashcat.net/wiki/doku.php?id=hashcat)
+{% endhint %}
 
 ## Identify Hashes
+
+***
 
 `hash-identifier`
 
 Example Hashes: https://hashcat.net/wiki/doku.php?id=example\_hashes
 
 ## MAX POWER!
+
+***
 
 I have found that I can squeeze some more power out of my hash cracking by adding these parameters:
 
@@ -20,6 +26,8 @@ These will force Hashcat to use the CUDA GPU interface which is buggy but provid
 Finally "--opencl-device-types 1,2 " will force HashCat to use BOTH the GPU and the CPU to handle the cracking.
 
 ## Using hashcat and a dictionary
+
+***
 
 Create a .hash file with all the hashes you want to crack puthasheshere.hash: $1$O3JMY.Tw$AdLnLjQ/5jXF9.MTp3gHv/
 
@@ -35,6 +43,8 @@ http://openwall.info/wiki/john/sample-hashes
 
 ## HashCat One Rule to Rule them All
 
+***
+
 Not So Secure has built a custom rule that I have had luck with in the past:\
 https://www.notsosecure.com/one-rule-to-rule-them-all/\
 The rule can be downloaded from their Github site:\
@@ -47,6 +57,8 @@ hashcat64.exe --force -m300 --status -w3 -o found.txt --remove --potfile-disable
 ```
 
 ## Using hashcat bruteforcing
+
+***
 
 ```
 predefined charsets
@@ -66,6 +78,8 @@ Brute force all passwords length 1-8 with possible characters A-Z a-z 0-9\
 
 ## Cracking Linux Hashes - /etc/shadow file
 
+***
+
 | ID   | Description                   | Type              |
 | ---- | ----------------------------- | ----------------- |
 | 500  | md5crypt $1$, MD5(Unix)       | Operating-Systems |
@@ -75,12 +89,16 @@ Brute force all passwords length 1-8 with possible characters A-Z a-z 0-9\
 
 ## Cracking Windows Hashes
 
+***
+
 | ID   | Description | Type              |
 | ---- | ----------- | ----------------- |
 | 3000 | LM          | Operating-Systems |
 | 1000 | NTLM        | Operating-Systems |
 
 ## Cracking Common Application Hashes
+
+***
 
 | ID    | Description | Type     |
 | ----- | ----------- | -------- |
@@ -93,6 +111,8 @@ Brute force all passwords length 1-8 with possible characters A-Z a-z 0-9\
 | 1700  | SHA-512     | Raw Hash |
 
 ## Cracking Common File Password Protections
+
+***
 
 | ID    | Description                                     | Type      |
 | ----- | ----------------------------------------------- | --------- |
@@ -121,6 +141,8 @@ Brute force all passwords length 1-8 with possible characters A-Z a-z 0-9\
 
 ## Cracking Commmon Database Hash Formats
 
+***
+
 | ID    | Description                 | Type            | Example Hash                                                                                                                                                     |
 | ----- | --------------------------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 12    | PostgreSQL                  | Database Server | a6343a68d964ca596d9752250d54bb8a:postgres                                                                                                                        |
@@ -135,6 +157,8 @@ Brute force all passwords length 1-8 with possible characters A-Z a-z 0-9\
 | 8000  | Sybase ASE                  | Database Server | 0xc00778168388631428230545ed2c976790af96768afa0806fe6c0da3b28f3e132137eac56f9bad027ea2                                                                           |
 
 ## Cracking NTLM hashes
+
+***
 
 After grabbing or dumping the NTDS.dit and SYSTEM registry hive or dumping LSASS memory from a Windows box, you will often end up with NTLM hashes.
 
@@ -162,6 +186,8 @@ Elapsed Time: 2 Hours 35 Minutes
 
 ## Cracking Hashes from Kerboroasting - KRB5TGS
 
+***
+
 A service principal name (SPN) is a unique identifier of a service instance. SPNs are used by Kerberos authentication to associate a service instance with a service logon account. This allows a client application to request that the service authenticate an account even if the client does not have the account name.\
 KRB5TGS - Kerberoasting Service Accounts that use SPN Once you have identified a Kerberoastable service account (Bloodhound? Powershell Empire? - likely a MS SQL Server Service Account), any AD user can request a krb5tgs hash from it which can be used to crack the password.
 
@@ -186,17 +212,23 @@ Elapsed Time: 9 Minutes
 
 ## Cracking NTLMv2 Hashes from a Packet Capture
 
+***
+
 You may be asked to recover a password from an SMB authentication (NTLMv2) from a Packet Capture.\
 The following is a 9-step process for formatting the hash correctly to do this.\
 https://research.801labs.org/cracking-an-ntlmv2-hash/
 
 ## To crack linux hashes you must first unshadow them
 
+***
+
 `unshadow passwd-file.txt shadow-file.txt`
 
 `unshadow passwd-file.txt shadow-file.txt > unshadowed.txt`
 
 ## Crack a zip password
+
+***
 
 `zip2john Zipfile.zip | cut -d ':' -f 2 > hashes.txt`\
 `hashcat -a 0 -m 13600 hashes.txt /usr/share/wordlists/rockyou.txt`
@@ -206,6 +238,8 @@ Hashcat appears to have issues with some zip hash formats generated from zip2joh
 John seems to accept a wider range of zip formats for cracking.
 
 ## PRINCE Password Generation
+
+***
 
 PRINCE (PRobability INfinite Chained Elements) is a hashcat utility for randomly generating probable passwords:
 
@@ -217,6 +251,8 @@ Reference:\
 https://github.com/hashcat/princeprocessor
 
 ## Purple Rain
+
+***
 
 Purple Rain attack uses a combination of Prince, a dictionary and random Mutation rules to dynamicaly create infinite combinations of passwords.
 

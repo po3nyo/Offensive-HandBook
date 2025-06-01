@@ -43,7 +43,7 @@
 * [Server-Side](web-pentesting/server-side/README.md)
   * [SQL injection](web-pentesting/server-side/sql-injection.md)
   * [Authentication](web-pentesting/server-side/authentication.md)
-  * [Path traversal](web-pentesting/server-side/path-traversal.md)
+  * [Directory traversal](web-pentesting/server-side/directory-traversal.md)
   * [Command injection](web-pentesting/server-side/command-injection.md)
   * [Business logic vulnerabilities](web-pentesting/server-side/business-logic-vulnerabilities.md)
   * [Information disclosure](web-pentesting/server-side/information-disclosure.md)
@@ -96,7 +96,6 @@
 ## 🟫 ETC
 
 * [Tools](etc/tools/README.md)
-  * [Red Teaming Toolkit](etc/tools/red-teaming-toolkit.md)
   * [Reconnaissance / OSINT](etc/tools/reconnaissance-osint/README.md)
     * [Nmap](etc/tools/reconnaissance-osint/nmap.md)
     * [Rustscan](etc/tools/reconnaissance-osint/rustscan.md)

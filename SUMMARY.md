@@ -4,7 +4,8 @@
 
 ## 📌 Pinned
 
-* [Cheat Sheet](pinned/cheat-sheet.md)
+* [Cheat Sheet](pinned/cheat-sheet/README.md)
+  * [MSFVenom](pinned/cheat-sheet/msfvenom.md)
 
 ## 📖 background knowledge
 

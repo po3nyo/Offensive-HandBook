@@ -11,7 +11,9 @@
 
 ## 📖 background knowledge
 
-* [Active Directory & Windows](background-knowledge/active-directory-and-windows.md)
+* [Active Directory & Windows](background-knowledge/active-directory-and-windows/README.md)
+  * [PowerShell](background-knowledge/active-directory-and-windows/powershell/README.md)
+    * [SC (Service Control)](background-knowledge/active-directory-and-windows/powershell/sc-service-control.md)
 
 ***
 

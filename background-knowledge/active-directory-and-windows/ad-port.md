@@ -1,6 +1,6 @@
 # AD-Port
 
-## Active Directory 주요 포트, 취약점 및 도구 정리
+## Active Directory 주요 포트, 취약점 및 도구
 
 ***
 

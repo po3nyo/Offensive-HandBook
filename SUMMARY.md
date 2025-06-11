@@ -17,7 +17,7 @@
 
 ***
 
-* [Linux](linux.md)
+* [Linux](linux/README.md)
 * [Web](web.md)
 * [Network](network.md)
 * [CS](cs.md)
@@ -33,9 +33,9 @@
 
 * [Execution](execution.md)
 * [Persistence](persistence.md)
-* [Privilege Escalation](privilege-escalation/README.md)
-  * [Linux](privilege-escalation/linux.md)
-  * [Capability](privilege-escalation/capability.md)
+* [Privilege Escalation](privilege-escalation.md)
+  * [Linux](privilege-escalation/linux/README.md)
+    * [Capability](privilege-escalation/linux/capability.md)
 * [Defense Evasion](defense-evasion.md)
 * [Credential Access](credential-access.md)
 * [Discovery](discovery.md)

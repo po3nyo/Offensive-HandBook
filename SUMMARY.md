@@ -14,6 +14,7 @@
 * [Active Directory & Windows](background-knowledge/active-directory-and-windows/README.md)
   * [PowerShell](background-knowledge/active-directory-and-windows/powershell/README.md)
     * [SC (Service Control)](background-knowledge/active-directory-and-windows/powershell/sc-service-control.md)
+  * [AD-Port](background-knowledge/active-directory-and-windows/ad-port.md)
 
 ***
 

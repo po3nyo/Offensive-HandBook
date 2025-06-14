@@ -37,13 +37,15 @@
 * [Privilege Escalation](privilege-escalation.md)
   * [Linux](privilege-escalation/linux/README.md)
     * [Capability](privilege-escalation/linux/capability.md)
+  * [Active Directory](privilege-escalation/active-directory.md)
+  * [Windows](privilege-escalation/windows.md)
 * [Defense Evasion](defense-evasion.md)
 * [Credential Access](credential-access.md)
 * [Discovery](discovery.md)
 * [Lateral Movement](lateral-movement.md)
 * [Collection](collection.md)
-* [Command and Control](command-and-control.md)
 * [Exfiltration](exfiltration.md)
+* [Command and Control](command-and-control.md)
 
 ## 🟦 Web Pentesting
 

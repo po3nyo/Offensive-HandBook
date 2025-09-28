@@ -80,21 +80,21 @@ sudo setcap cap_setuid=+ep /usr/bin/python3
 
 * `/home/po3nyo/.local/python3` 바이너리에 `cap_setuid+ep` 설정 확인
 
-<figure><img src="../../.gitbook/assets/2025-05-17 08 20 12.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2025-05-17 08 20 12.png" alt=""><figcaption></figcaption></figure>
 
 * 해당 폴더로 이동 후 python 실행파일을 이용하여 아래 [ 코드](https://gtfobins.github.io/gtfobins/python/#capabilities) 실행 후 root shell 획득
 
-<figure><img src="../../.gitbook/assets/2025-05-17 08 29 45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2025-05-17 08 29 45.png" alt=""><figcaption></figcaption></figure>
 
 ### 2. CAP\_DAC\_OVERRIDE 를 이용한 /etc/shadow 파일 접근
 
 * `/usr/bin/cat`바이너리에 `cap_dac_override+ep` 설정 확인
 
-<figure><img src="../../.gitbook/assets/2025-05-17 09 11 48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2025-05-17 09 11 48.png" alt=""><figcaption></figcaption></figure>
 
 * `/etc/shadow` 조회
 
-<figure><img src="../../.gitbook/assets/2025-05-17 09 18 13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2025-05-17 09 18 13.png" alt=""><figcaption></figcaption></figure>
 
 * root 계정 패스워드 해시 추출
 
@@ -106,11 +106,11 @@ root:$y$j9T$0jySFGwRLizG1CF2zeBsd1$B9D3ly/.g4kS.6S/POc7KcD6dRS3DtmulhAECzkLouD:2
 
 * 해시 크래킹을 통해 root 패스워드 획득
 
-<figure><img src="../../.gitbook/assets/2025-05-17 09 43 07 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2025-05-17 09 43 07 (2).png" alt=""><figcaption></figcaption></figure>
 
 * `su` 명령으로 root 계정 로그인
 
-<figure><img src="../../.gitbook/assets/2025-05-17 09 47 22 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2025-05-17 09 47 22 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 5. Mitigation
 

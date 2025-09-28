@@ -15,13 +15,10 @@
   * [PowerShell](background-knowledge/active-directory-and-windows/powershell/README.md)
     * [SC (Service Control)](background-knowledge/active-directory-and-windows/powershell/sc-service-control.md)
   * [AD-Port](background-knowledge/active-directory-and-windows/ad-port.md)
-
-***
-
-* [Linux](linux/README.md)
-* [Web](web.md)
-* [Network](network.md)
-* [CS](cs.md)
+* [Linux](background-knowledge/linux.md)
+* [Web](background-knowledge/web.md)
+* [Network](background-knowledge/network.md)
+* [CS](background-knowledge/cs.md)
 
 ## 🟥 Offensive Security
 
@@ -29,31 +26,28 @@
 * [Blue Team Infrastructure](offensive-security/blue-team-infrastructure.md)
 * [Reconnaissance](offensive-security/reconnaissance.md)
 * [Initial Access](offensive-security/initial-access.md)
-
-***
-
-* [Execution](execution.md)
-* [Persistence](persistence.md)
-* [Privilege Escalation](privilege-escalation.md)
-  * [Linux](privilege-escalation/linux/README.md)
-    * [Kernel Exploits](privilege-escalation/linux/kernel-exploits.md)
-    * [Sudo](privilege-escalation/linux/sudo.md)
-    * [SUID / SGID](privilege-escalation/linux/suid-sgid.md)
-    * [Capability](privilege-escalation/linux/capability.md)
-    * [Cron Jobs](privilege-escalation/linux/cron-jobs.md)
-    * [PATH](privilege-escalation/linux/path.md)
-    * [NFS](privilege-escalation/linux/nfs.md)
-  * [Active Directory](privilege-escalation/active-directory/README.md)
-    * [BadSuccessor](privilege-escalation/active-directory/badsuccessor.md)
-    * [Golden dMSA](privilege-escalation/active-directory/golden-dmsa.md)
-  * [Windows](privilege-escalation/windows.md)
-* [Defense Evasion](defense-evasion.md)
-* [Credential Access](credential-access.md)
-* [Discovery](discovery.md)
-* [Lateral Movement](lateral-movement.md)
-* [Collection](collection.md)
-* [Exfiltration](exfiltration.md)
-* [Command and Control](command-and-control.md)
+* [Execution](offensive-security/execution.md)
+* [Persistence](offensive-security/persistence.md)
+* [Privilege Escalation](offensive-security/privilege-escalation/README.md)
+  * [Linux](offensive-security/privilege-escalation/linux/README.md)
+    * [Kernel Exploits](offensive-security/privilege-escalation/linux/kernel-exploits.md)
+    * [Sudo](offensive-security/privilege-escalation/linux/sudo.md)
+    * [SUID / SGID](offensive-security/privilege-escalation/linux/suid-sgid.md)
+    * [Capability](offensive-security/privilege-escalation/linux/capability.md)
+    * [Cron Jobs](offensive-security/privilege-escalation/linux/cron-jobs.md)
+    * [PATH](offensive-security/privilege-escalation/linux/path.md)
+    * [NFS](offensive-security/privilege-escalation/linux/nfs.md)
+  * [Active Directory](offensive-security/privilege-escalation/active-directory/README.md)
+    * [BadSuccessor](offensive-security/privilege-escalation/active-directory/badsuccessor.md)
+    * [Golden dMSA](offensive-security/privilege-escalation/active-directory/golden-dmsa.md)
+  * [Windows](offensive-security/privilege-escalation/windows.md)
+* [Defense Evasion](offensive-security/defense-evasion.md)
+* [Credential Access](offensive-security/credential-access.md)
+* [Discovery](offensive-security/discovery.md)
+* [Lateral Movement](offensive-security/lateral-movement.md)
+* [Collection](offensive-security/collection.md)
+* [Exfiltration](offensive-security/exfiltration.md)
+* [Command and Control](offensive-security/command-and-control.md)
 
 ## 🟦 Web Pentesting
 
@@ -80,26 +74,20 @@
   * [HTTP request smuggling](web-pentesting/server-side/http-request-smuggling.md)
   * [OAuth authentication](web-pentesting/server-side/oauth-authentication.md)
   * [JWT attacks](web-pentesting/server-side/jwt-attacks.md)
-
-***
-
-* [Client-Side](client-side/README.md)
-  * [Cross-site scripting (XSS)](client-side/cross-site-scripting-xss.md)
-  * [Cross-site request forgery (CSRF)](client-side/cross-site-request-forgery-csrf.md)
-  * [Cross-origin resource sharing (CORS)](client-side/cross-origin-resource-sharing-cors.md)
-  * [Clickjacking](client-side/clickjacking.md)
-  * [Dom-based vulnerabilities](client-side/dom-based-vulnerabilities.md)
-  * [WebSockets](client-side/websockets.md)
-  * [Web LLM attacks](client-side/web-llm-attacks.md)
-  * [Prototype pollution](client-side/prototype-pollution.md)
+* [Client-Side](web-pentesting/client-side/README.md)
+  * [Cross-site scripting (XSS)](web-pentesting/client-side/cross-site-scripting-xss.md)
+  * [Cross-site request forgery (CSRF)](web-pentesting/client-side/cross-site-request-forgery-csrf.md)
+  * [Cross-origin resource sharing (CORS)](web-pentesting/client-side/cross-origin-resource-sharing-cors.md)
+  * [Clickjacking](web-pentesting/client-side/clickjacking.md)
+  * [Dom-based vulnerabilities](web-pentesting/client-side/dom-based-vulnerabilities.md)
+  * [WebSockets](web-pentesting/client-side/websockets.md)
+  * [Web LLM attacks](web-pentesting/client-side/web-llm-attacks.md)
+  * [Prototype pollution](web-pentesting/client-side/prototype-pollution.md)
 
 ## 🟩 Mobile Pentesting
 
 * [Android](mobile-pentesting/android.md)
-
-***
-
-* [IOS](ios.md)
+* [IOS](mobile-pentesting/ios.md)
 
 ## 🟨 reverse engineering
 
